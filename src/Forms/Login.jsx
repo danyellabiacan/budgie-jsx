@@ -20,24 +20,24 @@ const Login = () => {
                     <input type="text"
                         required
                         placeholder="Enter your username"
-                        className="p-3 w-80 text-xs bg-transparent border-b border-neutral-500 placeholder-neutral-500 transition-all focus:outline-0 focus:border-teal-300"/>
+                        className="p-3 w-80 text-xs bg-transparent border-b border-neutral-500 placeholder-neutral-500 transition-all focus:outline-0 focus:border-cyan-500"/>
                     <input type="password"
                         required
                         placeholder="Enter your password"
-                        className="p-3 w-80 text-xs bg-transparent border-b border-neutral-500 placeholder-neutral-500 transition-all focus:outline-0 focus:border-teal-300"/>
+                        className="p-3 w-80 text-xs bg-transparent border-b border-neutral-500 placeholder-neutral-500 transition-all focus:outline-0 focus:border-cyan-500"/>
                 </section>
                     
                 <section className="flex justify-between items-center mt-5">
                     <label className="flex text-xs">
                         <input type="checkbox"
-                            className="accent-teal-500"/>
+                            className="accent-cyan-500"/>
                         <span className="ml-2">Remember me</span>
                     </label>
-                    <span className="text-xs text-teal-700 transition-colors hover:text-opacity-75 hover:cursor-pointer" onClick={() => console.log("dumbass forgot their password")}>Forgot your password?</span>
+                    <span className="text-xs text-cyan-800 transition-colors hover:text-opacity-75 hover:cursor-pointer" onClick={() => console.log("dumbass forgot their password")}>Forgot your password?</span>
                 </section>
 
                 <button type="submit"
-                    className="p-3 mt-10 rounded bg-teal-500 text-white text-sm transition-colors hover:bg-opacity-75">
+                    className="p-3 mt-10 rounded bg-cyan-600 text-white text-sm transition-colors hover:bg-opacity-75">
                     Login
                 </button>
             </form>
